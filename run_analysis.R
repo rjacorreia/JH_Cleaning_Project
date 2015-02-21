@@ -49,4 +49,3 @@ final_data_frame_for_submission <-
 
 #Step 9 - Export the tidy data set to a text file
 write.table(final_data_frame_for_submission, file = "./tidy_data_set.txt", row.name=FALSE)
-write.table(names(final_data_frame_for_submission), file = "./variable_names.txt", row.name=FALSE)

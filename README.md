@@ -45,6 +45,10 @@ In result, I got a **text file with 181 lines (1 line for the column headers + 1
 
 **Step 8** - Calculate the tidy data set by using ddply. (requires plyr package)
 
+**Important note:** If the script run_analysis.R throws an error, it might be due to not having the plyr package installed and you should perform
+
+	> install.packages(plyr)
+
 **Step 9** - Export the tidy data set to a text file named tidy_data_set.txt
 	
 #codeBook.md
